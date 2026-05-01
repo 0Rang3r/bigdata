@@ -1,0 +1,8 @@
+ format            engine  task  cpu_time_avg_sec  wall_time_avg_sec  cpu_time_min_sec  wall_time_min_sec  cpu_time_max_sec  wall_time_max_sec  file_size_mb
+   json       stdlib_json write          0.958333           0.963052          0.921875           0.940818          1.000000           0.990764        170.87
+  jsonl       stdlib_json write          1.026042           1.037107          0.953125           0.973116          1.109375           1.129057        170.87
+    csv            polars write          0.286458           0.079969          0.218750           0.071820          0.390625           0.084275        165.46
+    tsv            polars write          0.130208           0.088053          0.109375           0.070955          0.156250           0.097144        165.46
+parquet            polars write          1.406250           1.410483          1.218750           1.220326          1.578125           1.600830         59.30
+    orc           pyarrow write          0.645833           0.669482          0.531250           0.561650          0.843750           0.866872        165.13
+ sqlite pandas+sqlalchemy write          0.708333           1.319980          0.515625           1.093400          0.875000           1.503751        177.85
