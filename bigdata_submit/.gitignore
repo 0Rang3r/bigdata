@@ -3,3 +3,4 @@ build/
 *.pyd
 __pycache__/
 .ipynb_checkpoints/
+sample_for_cpp_binding.jsonl
